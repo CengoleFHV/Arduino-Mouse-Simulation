@@ -1,0 +1,243 @@
+
+
+
+
+
+
+
+Started logging.
+
+<<<
+Content-Length: 3210
+
+{"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":15020,"clientInfo":{"name":"vscode","version":"1.53.2"},"rootPath":"c:\\Users\\cengi\\AppData\\Local\\Temp\\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\\sketch_may27a","rootUri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","rename","delete"],"failureHandling":"textOnlyTransactional"},"didChangeConfiguration":{"dynamicRegistration":true},"didChangeWatchedFiles":{"dynamicRegistration":true},"symbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]}},"executeCommand":{"dynamicRegistration":true},"configuration":true,"workspaceFolders":true},"textDocument":{"publishDiagnostics":{"relatedInformation":true,"versionSupport":false,"tagSupport":{"valueSet":[1,2]}},"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"contextSupport":true,"completionItem":{"snippetSupport":true,"commitCharactersSupport":true,"documentationFormat":["markdown","plaintext"],"deprecatedSupport":true,"preselectSupport":true,"tagSupport":{"valueSet":[1]}},"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]}},"hover":{"dynamicRegistration":true,"contentFormat":["markdown","plaintext"]},"signatureHelp":{"dynamicRegistration":true,"signatureInformation":{"documentationFormat":["markdown","plaintext"],"parameterInformation":{"labelOffsetSupport":true}},"contextSupport":true},"definition":{"dynamicRegistration":true,"linkSupport":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"codeAction":{"dynamicRegistration":true,"isPreferredSupport":true,"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}}},"codeLens":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"prepareSupport":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"typeDefinition":{"dynamicRegistration":true,"linkSupport":true},"implementation":{"dynamicRegistration":true,"linkSupport":true},"colorProvider":{"dynamicRegistration":true},"foldingRange":{"dynamicRegistration":true,"rangeLimit":5000,"lineFoldingOnly":true},"declaration":{"dynamicRegistration":true,"linkSupport":true},"selectionRange":{"dynamicRegistration":true}},"window":{"workDoneProgress":true}},"initializationOptions":{},"trace":"off","workspaceFolders":[{"uri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a","name":"sketch_may27a"}]}}
+>>>
+Content-Length: 936
+
+{"jsonrpc":"2.0","id":0,"result":{"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}}
+<<<
+Content-Length: 52
+
+{"jsonrpc":"2.0","method":"initialized","params":{}}Content-Length: 2290
+
+{"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino","languageId":"cpp","version":2,"text":"app/bin/\napp/pde.jar\nbuild/macosx/work/\narduino-core/bin/\narduino-core/arduino-core.jar\nhardware/arduino/bootloaders/caterina_LUFA/Descriptors.o\nhardware/arduino/bootloaders/caterina_LUFA/Descriptors.lst\nhardware/arduino/bootloaders/caterina_LUFA/Caterina.sym\nhardware/arduino/bootloaders/caterina_LUFA/Caterina.o\nhardware/arduino/bootloaders/caterina_LUFA/Caterina.map\nhardware/arduino/bootloaders/caterina_LUFA/Caterina.lst\nhardware/arduino/bootloaders/caterina_LUFA/Caterina.lss\nhardware/arduino/bootloaders/caterina_LUFA/Caterina.elf\nhardware/arduino/bootloaders/caterina_LUFA/Caterina.eep\nhardware/arduino/bootloaders/caterina_LUFA/.dep/\nbuild/*.zip\nbuild/*.tar.bz2\nbuild/windows/work/\nbuild/windows/*.zip\nbuild/windows/*.tgz\nbuild/windows/*.tar.bz2\nbuild/windows/libastylej*\nbuild/windows/liblistSerials*\nbuild/windows/arduino-*.zip\nbuild/windows/dist/*.tar.gz\nbuild/windows/dist/*.tar.bz2\nbuild/windows/launch4j-*.tgz\nbuild/windows/launch4j-*.zip\nbuild/windows/launcher/launch4j\nbuild/windows/WinAVR-*.zip\nbuild/macosx/arduino-*.zip\nbuild/macosx/dist/*.tar.gz\nbuild/macosx/dist/*.tar.bz2\nbuild/macosx/*.tar.bz2\nbuild/macosx/libastylej*\nbuild/macosx/appbundler*.jar\nbuild/macosx/appbundler*.zip\nbuild/macosx/appbundler\nbuild/macosx/appbundler-1.0ea-arduino?\nbuild/macosx/appbundler-1.0ea-arduino*.zip\nbuild/macosx/appbundler-1.0ea-upstream*.zip\nbuild/linux/work/\nbuild/linux/dist/*.tar.gz\nbuild/linux/dist/*.tar.bz2\nbuild/linux/*.tgz\nbuild/linux/*.tar.xz\nbuild/linux/*.tar.bz2\nbuild/linux/*.zip\nbuild/linux/libastylej*\nbuild/linux/liblistSerials*\nbuild/shared/arduino-examples*\nbuild/shared/reference*.zip\nbuild/shared/Edison*.zip\nbuild/shared/Galileo*.zip\nbuild/shared/WiFi101-Updater-ArduinoIDE-Plugin*.zip\ntest-bin\n*.iml\n.idea\n.DS_Store\n.directory\nhardware/arduino/avr/libraries/Bridge/examples/XivelyClient/passwords.h\navr-toolchain-*.zip\n/app/nbproject/private/\n/arduino-core/nbproject/private/\n/app/build/\n/arduino-core/build/\n\nmanifest.mf\nnbbuild.xml\nnbproject"}}}Content-Length: 322
+
+{"jsonrpc":"2.0","id":1,"method":"textDocument/codeAction","params":{"textDocument":{"uri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino"},"range":{"start":{"line":69,"character":9},"end":{"line":69,"character":9}},"context":{"diagnostics":[]}}}Content-Length: 221
+
+{"jsonrpc":"2.0","id":2,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino"}}}Content-Length: 58
+
+{"jsonrpc":"2.0","id":3,"method":"shutdown","params":null}Content-Length: 62
+
+{"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":1}}Content-Length: 62
+
+{"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":2}}
+>>>
+Content-Length: 113
+
+{"jsonrpc":"2.0","id":"1","method":"window/workDoneProgress/create","params":{"token":"backgroundIndexProgress"}}Content-Length: 36
+
+{"jsonrpc":"2.0","id":1,"result":[]}Content-Length: 36
+
+{"jsonrpc":"2.0","id":2,"result":[]}Content-Length: 128
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"end","message":"Shutdown"}}}Content-Length: 38
+
+{"jsonrpc":"2.0","id":3,"result":null}
+<<<
+Content-Length: 155
+
+{"jsonrpc":"2.0","id":"1","error":{"code":-32603,"message":"Request window/workDoneProgress/create failed with message: Language client is not ready yet"}}Content-Length: 47
+
+{"jsonrpc":"2.0","method":"exit","params":null}
+
+
+
+
+
+
+Started logging.
+
+<<<
+Content-Length: 3210
+
+{"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":15020,"clientInfo":{"name":"vscode","version":"1.53.2"},"rootPath":"c:\\Users\\cengi\\AppData\\Local\\Temp\\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\\sketch_may27a","rootUri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","rename","delete"],"failureHandling":"textOnlyTransactional"},"didChangeConfiguration":{"dynamicRegistration":true},"didChangeWatchedFiles":{"dynamicRegistration":true},"symbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]}},"executeCommand":{"dynamicRegistration":true},"configuration":true,"workspaceFolders":true},"textDocument":{"publishDiagnostics":{"relatedInformation":true,"versionSupport":false,"tagSupport":{"valueSet":[1,2]}},"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"contextSupport":true,"completionItem":{"snippetSupport":true,"commitCharactersSupport":true,"documentationFormat":["markdown","plaintext"],"deprecatedSupport":true,"preselectSupport":true,"tagSupport":{"valueSet":[1]}},"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]}},"hover":{"dynamicRegistration":true,"contentFormat":["markdown","plaintext"]},"signatureHelp":{"dynamicRegistration":true,"signatureInformation":{"documentationFormat":["markdown","plaintext"],"parameterInformation":{"labelOffsetSupport":true}},"contextSupport":true},"definition":{"dynamicRegistration":true,"linkSupport":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"codeAction":{"dynamicRegistration":true,"isPreferredSupport":true,"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}}},"codeLens":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"prepareSupport":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"typeDefinition":{"dynamicRegistration":true,"linkSupport":true},"implementation":{"dynamicRegistration":true,"linkSupport":true},"colorProvider":{"dynamicRegistration":true},"foldingRange":{"dynamicRegistration":true,"rangeLimit":5000,"lineFoldingOnly":true},"declaration":{"dynamicRegistration":true,"linkSupport":true},"selectionRange":{"dynamicRegistration":true}},"window":{"workDoneProgress":true}},"initializationOptions":{},"trace":"off","workspaceFolders":[{"uri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a","name":"sketch_may27a"}]}}
+>>>
+Content-Length: 936
+
+{"jsonrpc":"2.0","id":0,"result":{"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}}
+<<<
+Content-Length: 52
+
+{"jsonrpc":"2.0","method":"initialized","params":{}}Content-Length: 386
+
+{"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino","languageId":"cpp","version":3,"text":"void setup() {\n  // put your setup code here, to run once:\n\n}\n\nvoid loop() {\n  // put your main code here, to run repeatedly:\n\n}\n"}}}Content-Length: 320
+
+{"jsonrpc":"2.0","id":1,"method":"textDocument/codeAction","params":{"textDocument":{"uri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino"},"range":{"start":{"line":0,"character":0},"end":{"line":9,"character":0}},"context":{"diagnostics":[]}}}Content-Length: 221
+
+{"jsonrpc":"2.0","id":2,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino"}}}Content-Length: 62
+
+{"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":2}}Content-Length: 221
+
+{"jsonrpc":"2.0","id":3,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino"}}}
+>>>
+Content-Length: 113
+
+{"jsonrpc":"2.0","id":"1","method":"window/workDoneProgress/create","params":{"token":"backgroundIndexProgress"}}Content-Length: 36
+
+{"jsonrpc":"2.0","id":1,"result":[]}Content-Length: 36
+
+{"jsonrpc":"2.0","id":2,"result":[]}Content-Length: 36
+
+{"jsonrpc":"2.0","id":3,"result":[]}
+<<<
+Content-Length: 40
+
+{"jsonrpc":"2.0","id":"1","result":null}Content-Length: 62
+
+{"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":3}}Content-Length: 221
+
+{"jsonrpc":"2.0","id":4,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino"}}}
+>>>
+Content-Length: 143
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"begin","title":"indexing","percentage":0}}}Content-Length: 143
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"3/27","percentage":11}}}Content-Length: 36
+
+{"jsonrpc":"2.0","id":4,"result":[]}
+<<<
+Content-Length: 221
+
+{"jsonrpc":"2.0","id":5,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino"}}}Content-Length: 1191
+
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"uri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino","version":4},"contentChanges":[{"range":{"start":{"line":0,"character":0},"end":{"line":9,"character":0}},"rangeLength":129,"text":"const int buttonPin = 2;\nconst int startLED = 3;\nconst int testLED = 4;\n\nvoid setup() {\n  // put your setup code here, to run once:\n  pinMode(startLED, OUTPUT);\n  pinMode(testLED, OUTPUT);\n  digitalWrite(startLED, HIGH);\n  digitalWrite(testLED, HIGH);\n  pinMode(buttonPin, INPUT_PULLUP);\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  // put your main code here, to run repeatedly:\n  int buttonState = digitalRead(buttonPin);\n\n  if (buttonState == LOW) {\n    startTest();\n  }\n}\n\nvoid startTest() {\n  Serial.println(\"Test Started!\");\n  blinkLEDWithDuration(250, startLED);\n  delay(250);\n  for (int i = 0; i <= 20; i++) {\n    blinkLEDWithDuration(50, testLED);\n  }\n}\n\nvoid blinkLEDWithDuration(int delayTime, int pin) {\n  digitalWrite(pin, LOW);\n  delay(delayTime);\n  digitalWrite(pin, HIGH);\n  delay(delayTime);\n}\n"}]}}Content-Length: 62
+
+{"jsonrpc":"2.0","method":"$/cancelRequest","params":{"id":5}}Content-Length: 221
+
+{"jsonrpc":"2.0","id":6,"method":"textDocument/documentSymbol","params":{"textDocument":{"uri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino"}}}
+>>>
+Content-Length: 36
+
+{"jsonrpc":"2.0","id":5,"result":[]}Content-Length: 1522
+
+{"jsonrpc":"2.0","id":6,"result":[{"name":"buttonPin","detail":"const int","kind":13,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":23}},"selectionRange":{"start":{"line":0,"character":10},"end":{"line":0,"character":19}}},{"name":"startLED","detail":"const int","kind":13,"range":{"start":{"line":1,"character":0},"end":{"line":1,"character":22}},"selectionRange":{"start":{"line":1,"character":10},"end":{"line":1,"character":18}}},{"name":"testLED","detail":"const int","kind":13,"range":{"start":{"line":2,"character":0},"end":{"line":2,"character":21}},"selectionRange":{"start":{"line":2,"character":10},"end":{"line":2,"character":17}}},{"name":"setup","detail":"void ()","kind":12,"range":{"start":{"line":4,"character":0},"end":{"line":12,"character":1}},"selectionRange":{"start":{"line":4,"character":5},"end":{"line":4,"character":10}}},{"name":"loop","detail":"void ()","kind":12,"range":{"start":{"line":14,"character":0},"end":{"line":21,"character":1}},"selectionRange":{"start":{"line":14,"character":5},"end":{"line":14,"character":9}}},{"name":"startTest","detail":"void ()","kind":12,"range":{"start":{"line":23,"character":0},"end":{"line":30,"character":1}},"selectionRange":{"start":{"line":23,"character":5},"end":{"line":23,"character":14}}},{"name":"blinkLEDWithDuration","detail":"void (int, int)","kind":12,"range":{"start":{"line":32,"character":0},"end":{"line":37,"character":1}},"selectionRange":{"start":{"line":32,"character":5},"end":{"line":32,"character":25}}}]}Content-Length: 143
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"4/27","percentage":14}}}Content-Length: 143
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"4/27","percentage":14}}}Content-Length: 143
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"5/27","percentage":18}}}Content-Length: 143
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"5/27","percentage":18}}}Content-Length: 143
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"6/27","percentage":22}}}Content-Length: 143
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"6/27","percentage":22}}}Content-Length: 143
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"7/27","percentage":25}}}Content-Length: 143
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"7/27","percentage":25}}}Content-Length: 143
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"8/27","percentage":29}}}Content-Length: 143
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"8/27","percentage":29}}}Content-Length: 143
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"9/27","percentage":33}}}Content-Length: 143
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"9/27","percentage":33}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"10/27","percentage":37}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"10/27","percentage":37}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"11/27","percentage":40}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"11/27","percentage":40}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"12/27","percentage":44}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"12/27","percentage":44}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"13/27","percentage":48}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"13/27","percentage":48}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"14/27","percentage":51}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"14/27","percentage":51}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"15/27","percentage":55}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"15/27","percentage":55}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"16/27","percentage":59}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"16/27","percentage":59}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"17/27","percentage":62}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"17/27","percentage":62}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"18/27","percentage":66}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"18/27","percentage":66}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"19/27","percentage":70}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"19/27","percentage":70}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"20/27","percentage":74}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"21/27","percentage":77}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"22/27","percentage":81}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"23/27","percentage":85}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"24/27","percentage":88}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"25/27","percentage":92}}}Content-Length: 144
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"report","message":"26/27","percentage":96}}}Content-Length: 107
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"backgroundIndexProgress","value":{"kind":"end"}}}
+<<<
+Content-Length: 1076
+
+{"jsonrpc":"2.0","method":"textDocument/didSave","params":{"textDocument":{"uri":"file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino","version":4},"text":"const int buttonPin = 2;\nconst int startLED = 3;\nconst int testLED = 4;\n\nvoid setup() {\n  // put your setup code here, to run once:\n  pinMode(startLED, OUTPUT);\n  pinMode(testLED, OUTPUT);\n  digitalWrite(startLED, HIGH);\n  digitalWrite(testLED, HIGH);\n  pinMode(buttonPin, INPUT_PULLUP);\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  // put your main code here, to run repeatedly:\n  int buttonState = digitalRead(buttonPin);\n\n  if (buttonState == LOW) {\n    startTest();\n  }\n}\n\nvoid startTest() {\n  Serial.println(\"Test Started!\");\n  blinkLEDWithDuration(250, startLED);\n  delay(250);\n  for (int i = 0; i <= 20; i++) {\n    blinkLEDWithDuration(50, testLED);\n  }\n}\n\nvoid blinkLEDWithDuration(int delayTime, int pin) {\n  digitalWrite(pin, LOW);\n  delay(delayTime);\n  digitalWrite(pin, HIGH);\n  delay(delayTime);\n}\n"}}
+>>>
+Content-Length: 118
+
+{"jsonrpc":"2.0","id":"2","method":"window/workDoneProgress/create","params":{"token":"arduinoLanguageServerRebuild"}}
+<<<
+Content-Length: 40
+
+{"jsonrpc":"2.0","id":"2","result":null}
+>>>
+Content-Length: 140
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"arduinoLanguageServerRebuild","value":{"kind":"begin","title":"Building sketch"}}}Content-Length: 129
+
+{"jsonrpc":"2.0","method":"$/progress","params":{"token":"arduinoLanguageServerRebuild","value":{"kind":"end","message":"done"}}}
+
+
+
+
+
+
+Started logging.
+
+<<<
+Content-Length: 3211
+
+{"jsonrpc":"2.0","id":0,"method":"initialize","params":{"processId":19464,"clientInfo":{"name":"vscode","version":"1.53.2"},"rootPath":"d:\\__FHV\\__Bachelorarbeit\\Bachelorarbeit Experiment\\Arduino-Mouse-Simulating\\Mouse-Simulator","rootUri":"file:///d%3A/__FHV/__Bachelorarbeit/Bachelorarbeit%20Experiment/Arduino-Mouse-Simulating/Mouse-Simulator","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","rename","delete"],"failureHandling":"textOnlyTransactional"},"didChangeConfiguration":{"dynamicRegistration":true},"didChangeWatchedFiles":{"dynamicRegistration":true},"symbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]}},"executeCommand":{"dynamicRegistration":true},"configuration":true,"workspaceFolders":true},"textDocument":{"publishDiagnostics":{"relatedInformation":true,"versionSupport":false,"tagSupport":{"valueSet":[1,2]}},"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"contextSupport":true,"completionItem":{"snippetSupport":true,"commitCharactersSupport":true,"documentationFormat":["markdown","plaintext"],"deprecatedSupport":true,"preselectSupport":true,"tagSupport":{"valueSet":[1]}},"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]}},"hover":{"dynamicRegistration":true,"contentFormat":["markdown","plaintext"]},"signatureHelp":{"dynamicRegistration":true,"signatureInformation":{"documentationFormat":["markdown","plaintext"],"parameterInformation":{"labelOffsetSupport":true}},"contextSupport":true},"definition":{"dynamicRegistration":true,"linkSupport":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"codeAction":{"dynamicRegistration":true,"isPreferredSupport":true,"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}}},"codeLens":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"prepareSupport":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"typeDefinition":{"dynamicRegistration":true,"linkSupport":true},"implementation":{"dynamicRegistration":true,"linkSupport":true},"colorProvider":{"dynamicRegistration":true},"foldingRange":{"dynamicRegistration":true,"rangeLimit":5000,"lineFoldingOnly":true},"declaration":{"dynamicRegistration":true,"linkSupport":true},"selectionRange":{"dynamicRegistration":true}},"window":{"workDoneProgress":true}},"initializationOptions":{},"trace":"off","workspaceFolders":[{"uri":"file:///d%3A/__FHV/__Bachelorarbeit/Bachelorarbeit%20Experiment/Arduino-Mouse-Simulating/Mouse-Simulator","name":"Mouse-Simulator"}]}}
+>>>
+Content-Length: 936
+
+{"jsonrpc":"2.0","id":0,"result":{"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}}
+<<<
+Content-Length: 52
+
+{"jsonrpc":"2.0","method":"initialized","params":{}}Content-Length: 1098
+
+{"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///d%3A/__FHV/__Bachelorarbeit/Bachelorarbeit%20Experiment/Arduino-Mouse-Simulating/Mouse-Simulator/Mouse-Simulator.ino","languageId":"cpp","version":1,"text":"const int buttonPin = 2;\nconst int startLED = 3;\nconst int testLED = 4;\n\nvoid setup() {\n  // put your setup code here, to run once:\n  pinMode(startLED, OUTPUT);\n  pinMode(testLED, OUTPUT);\n  digitalWrite(startLED, HIGH);\n  digitalWrite(testLED, HIGH);\n  pinMode(buttonPin, INPUT_PULLUP);\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  // put your main code here, to run repeatedly:\n  int buttonState = digitalRead(buttonPin);\n\n  if (buttonState == LOW) {\n    startTest();\n  }\n}\n\nvoid startTest() {\n  Serial.println(\"Test Started!\");\n  blinkLEDWithDuration(250, startLED);\n  delay(250);\n  for (int i = 0; i <= 20; i++) {\n    blinkLEDWithDuration(50, testLED);\n  }\n}\n\nvoid blinkLEDWithDuration(int delayTime, int pin) {\n  digitalWrite(pin, LOW);\n  delay(delayTime);\n  digitalWrite(pin, HIGH);\n  delay(delayTime);\n}\n"}}}

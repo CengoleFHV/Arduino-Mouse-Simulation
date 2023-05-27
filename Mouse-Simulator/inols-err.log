@@ -1,0 +1,990 @@
+
+
+
+
+
+
+
+Started logging.
+21:58:53.159741 Language server launched with arguments:
+21:58:53.159741   arg[0] = c:\Users\cengi\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+21:58:53.159741   arg[1] = -clangd
+21:58:53.159741   arg[2] = c:\Users\cengi\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+21:58:53.159741   arg[3] = -cli-daemon-addr
+21:58:53.159741   arg[4] = localhost:60527
+21:58:53.159741   arg[5] = -cli-daemon-instance
+21:58:53.159741   arg[6] = 1
+21:58:53.159741   arg[7] = -fqbn
+21:58:53.159741   arg[8] = arduino:avr:uno
+21:58:53.159741   arg[9] = -skip-libraries-discovery-on-rebuild
+21:58:53.159741   arg[10] = -board-name
+21:58:53.159741   arg[11] = "Arduino Uno"
+21:58:53.159741   arg[12] = -no-real-time-diagnostics
+21:58:53.159741   arg[13] = -log
+21:58:53.159741   arg[14] = -logpath
+21:58:53.159741   arg[15] = c:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a
+21:58:53.160242 logging to c:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\inols.log
+21:58:53.162241 [97mLS: : Initial board configuration: arduino:avr:uno[0m
+21:58:53.162241 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+21:58:53.162241 [97mLS: : Language server build path: C:\Users\cengi\AppData\Local\Temp\arduino-language-server2213225702[0m
+21:58:53.162241 [97mLS: : Language server build sketch root: C:\Users\cengi\AppData\Local\Temp\arduino-language-server2213225702\sketch[0m
+21:58:53.162241 [97mLS: : Language server FULL build path: C:\Users\cengi\AppData\Local\Temp\arduino-language-server2163832520[0m
+21:58:53.162742 IN Elapsed: 0s
+21:58:53.162742 [92mIDE --> LS REQU initialize 0[0m
+21:58:53.163741 [92m                initialize 0: [93mwrite-locked[0m[0m
+21:58:53.164241 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+21:58:53.164241 [96mINIT --- : initializing workbench: file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a[0m
+21:58:53.164241 [96mINIT --- : [93mread-locked[0m[0m
+21:58:53.164241 [96mINIT --- : [93mread-unlocked[0m[0m
+21:58:53.164741 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+21:58:53.164741 [32mIDE <-- LS RESP initialize 0[0m
+21:58:53.164741 OUT Elapsed: 0s
+21:58:53.168243 IN Elapsed: 3.5025ms
+21:58:53.168243 [92mIDE --> LS NOTIF initialized[0m
+21:58:53.168243 [92m                 initialized: Notification is not propagated to clangd[0m
+21:58:53.168243 IN Elapsed: 0s
+21:58:53.168243 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+21:58:53.168243 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+21:58:53.168243 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+21:58:53.168243 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+21:58:53.479244 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:uno",
+  "sketch_path": "C:\\Users\\cengi\\AppData\\Local\\Temp\\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\\sketch_may27a",
+  "build_path": "C:\\Users\\cengi\\AppData\\Local\\Temp\\arduino-language-server2163832520",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+21:58:53.821230 [96mINIT --- : Compile successful![0m
+21:58:53.823730 [96mINIT --- : Updated 'libraries.cache'. Copied: C:\Users\cengi\AppData\Local\Temp\arduino-language-server2163832520\libraries.cache to C:\Users\cengi\AppData\Local\Temp\arduino-language-server2213225702\libraries.cache[0m
+21:58:53.823730 [96mINIT --- : [93mread-locked[0m[0m
+21:58:53.823730 [96mINIT --- : [93mread-unlocked[0m[0m
+21:58:54.128746 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:uno",
+  "sketch_path": "C:\\Users\\cengi\\AppData\\Local\\Temp\\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\\sketch_may27a",
+  "build_path": "C:\\Users\\cengi\\AppData\\Local\\Temp\\arduino-language-server2213225702",
+  "verbose": true,
+  "create_compilation_database_only": true,
+  "skip_libraries_discovery": true
+}[0m
+21:58:54.332794 [96mINIT --- : Compile successful![0m
+21:58:54.655489 [96mINIT --- : Arduino Data Dir -> C:\Users\cengi\AppData\Local\Arduino15[0m
+21:58:54.656487 [96mINIT --- :     Starting clangd: c:\Users\cengi\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe -log=verbose --compile-commands-dir=C:\Users\cengi\AppData\Local\Temp\arduino-language-server2213225702 -query-driver=C:\Users\cengi\AppData\Local\Arduino15\packages\**[0m
+21:58:54.660487 logging to c:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\inols-clangd.log
+21:58:54.660487 logging to c:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\inols-clangd-err.log
+21:58:54.660987 [91mIDE     LS --> Clangd REQU initialize 1[0m
+21:58:54.660987 OUT Elapsed: 0s
+21:58:54.707988 IN Elapsed: 47.001ms
+21:58:54.707988 [31mIDE     LS <-- Clangd RESP initialize 1[0m
+21:58:54.707988 [96mINIT --- : clangd successfully started: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/","*"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"]},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",")","{","}","\u003c","\u003e",","]},"declarationProvider":{},"definitionProvider":{},"typeDefinitionProvider":{},"implementationProvider":{},"referencesProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentLinkProvider":{},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{"prepareProvider":true},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"selectionRangeProvider":{},"callHierarchyProvider":{},"semanticTokensProvider":{"legend":{"tokenTypes":["variable","variable","parameter","function","method","function","property","variable","class","interface","enum","enumMember","type","type","unknown","namespace","typeParameter","concept","type","macro","comment"],"tokenModifiers":["declaration","deprecated","deduced","readonly","static","abstract","virtual","dependentName","defaultLibrary","usedAsMutableReference","functionScope","classScope","fileScope","globalScope"]},"range":false,"full":{"delta":true}},"workspaceSymbolProvider":{}},"serverInfo":{"name":"clangd","version":"clangd version 14.0.0 windows x86_64-pc-windows-msvc"}}[0m
+21:58:54.707988 [91mIDE     LS --> Clangd NOTIF initialized[0m
+21:58:54.707988 OUT Elapsed: 0s
+21:58:54.707988 [96mINIT --- : Done initializing workbench[0m
+21:58:54.707988 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+21:58:54.708487 [92m                 textDocument/didOpen: URI: file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino -> file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server2213225702/sketch/sketch_may27a.ino.cpp[0m
+21:58:54.709987 [92m                 textDocument/didOpen: Increasing .ino tracked files count to 1[0m
+21:58:54.710487 [91mIDE     LS --> Clangd NOTIF textDocument/didOpen[0m
+21:58:54.710487 OUT Elapsed: 0s
+21:58:54.710487 [92m                 textDocument/didOpen: [93mwrite-unlocked[0m[0m
+21:58:54.710487 IN Elapsed: 0s
+21:58:54.710487 [92mIDE --> LS REQU textDocument/codeAction 1[0m
+21:58:54.710487 [92m                textDocument/codeAction 1: [93mread-locked[0m[0m
+21:58:54.710487 [92m                textDocument/codeAction 1: --> codeAction(file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:69:9)[0m
+21:58:54.710988 [92m                textDocument/codeAction 1: URI: file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino -> file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server2213225702/sketch/sketch_may27a.ino.cpp[0m
+21:58:54.712488 IN Elapsed: 4.4991ms
+21:58:54.712488 [91mIDE     LS <-- Clangd NOTIF textDocument/publishDiagnostics[0m
+21:58:54.712488 [91m                            textDocument/publishDiagnostics: Ignored by configuration[0m
+21:58:54.712488 [92m                textDocument/codeAction 1:     --> codeAction(file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server2213225702/sketch/sketch_may27a.ino.cpp:69:9)[0m
+21:58:54.712488 [91mIDE     LS --> Clangd REQU textDocument/codeAction 2[0m
+21:58:54.712488 OUT Elapsed: 0s
+21:58:54.715250 IN Elapsed: 2.7624ms
+21:58:54.715250 [91mIDE     LS <-- Clangd NOTIF textDocument/publishDiagnostics[0m
+21:58:54.715487 IN Elapsed: 237µs
+21:58:54.715487 [91m                            textDocument/publishDiagnostics: Ignored by configuration[0m
+21:58:54.715487 [91mIDE     LS <-- Clangd REQU window/workDoneProgress/create 0[0m
+21:58:54.715487 [31mIDE     LS --> Clangd RESP window/workDoneProgress/create 0[0m
+21:58:54.715487 [92mIDE <-- LS REQU window/workDoneProgress/create 1[0m
+21:58:54.715487 OUT Elapsed: 0s
+21:58:54.715487 OUT Elapsed: 0s
+21:58:54.715487 IN Elapsed: 0s
+21:58:54.715487 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.715487 [91m                            $/progress: backgroundIndexProgress BEGIN indexing, 0.0%[0m
+21:58:54.715487 IN Elapsed: 0s
+21:58:54.715487 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.715487 [91m                            $/progress: backgroundIndexProgress REPORT, 0/1, 0.0%[0m
+21:58:54.719488 IN Elapsed: 4.001ms
+21:58:54.719488 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.719488 [91m                            $/progress: backgroundIndexProgress REPORT, 0/27, 0.0%[0m
+21:58:54.719488 IN Elapsed: 0s
+21:58:54.719488 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.719488 [91m                            $/progress: backgroundIndexProgress REPORT, 0/27, 0.0%[0m
+21:58:54.719488 IN Elapsed: 0s
+21:58:54.719488 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.719488 [91m                            $/progress: backgroundIndexProgress REPORT, 0/27, 0.0%[0m
+21:58:54.719987 IN Elapsed: 0s
+21:58:54.719987 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.719987 [91m                            $/progress: backgroundIndexProgress REPORT, 0/27, 0.0%[0m
+21:58:54.719987 IN Elapsed: 0s
+21:58:54.719987 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.719987 [91m                            $/progress: backgroundIndexProgress REPORT, 0/27, 0.0%[0m
+21:58:54.719987 IN Elapsed: 0s
+21:58:54.719987 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.719987 [91m                            $/progress: backgroundIndexProgress REPORT, 1/27, 3.0%[0m
+21:58:54.719987 IN Elapsed: 0s
+21:58:54.719987 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.719987 [91m                            $/progress: backgroundIndexProgress REPORT, 1/27, 3.0%[0m
+21:58:54.719987 IN Elapsed: 0s
+21:58:54.719987 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.719987 [91m                            $/progress: backgroundIndexProgress REPORT, 1/27, 3.0%[0m
+21:58:54.719987 IN Elapsed: 0s
+21:58:54.719987 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.719987 [91m                            $/progress: backgroundIndexProgress REPORT, 1/27, 3.0%[0m
+21:58:54.719987 IN Elapsed: 0s
+21:58:54.719987 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.719987 [91m                            $/progress: backgroundIndexProgress REPORT, 1/27, 3.0%[0m
+21:58:54.823487 IN Elapsed: 103.4997ms
+21:58:54.823487 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.823487 [91m                            $/progress: backgroundIndexProgress REPORT, 2/27, 7.0%[0m
+21:58:54.823819 IN Elapsed: 332.6µs
+21:58:54.823819 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.823819 [91m                            $/progress: backgroundIndexProgress REPORT, 2/27, 7.0%[0m
+21:58:54.858488 IN Elapsed: 34.6686ms
+21:58:54.858987 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.858987 [91m                            $/progress: backgroundIndexProgress REPORT, 3/27, 11.0%[0m
+21:58:54.858987 IN Elapsed: 0s
+21:58:54.858987 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.858987 [91m                            $/progress: backgroundIndexProgress REPORT, 3/27, 11.0%[0m
+21:58:54.924488 IN Elapsed: 65.5006ms
+21:58:54.924488 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.924488 [91m                            $/progress: backgroundIndexProgress REPORT, 4/27, 14.0%[0m
+21:58:54.924488 IN Elapsed: 0s
+21:58:54.924488 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:54.924988 [91m                            $/progress: backgroundIndexProgress REPORT, 4/27, 14.0%[0m
+21:58:54.924988 IN Elapsed: 0s
+21:58:54.925487 [91mIDE     LS <-- Clangd NOTIF textDocument/publishDiagnostics[0m
+21:58:54.925487 IN Elapsed: 0s
+21:58:54.925487 [91m                            textDocument/publishDiagnostics: Ignored by configuration[0m
+21:58:54.925487 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 2[0m
+21:58:54.925487 [92m                textDocument/codeAction 1: [93mread-unlocked[0m[0m
+21:58:54.925487 [32mIDE <-- LS RESP textDocument/codeAction 1[0m
+21:58:54.925487 OUT Elapsed: 0s
+21:58:54.925487 IN Elapsed: 0s
+21:58:54.925487 [92mIDE --> LS REQU textDocument/documentSymbol 2[0m
+21:58:54.925487 [92m                textDocument/documentSymbol 2: [93mread-locked[0m[0m
+21:58:54.925988 [92m                textDocument/documentSymbol 2: URI: file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino -> file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server2213225702/sketch/sketch_may27a.ino.cpp[0m
+21:58:54.925988 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 3[0m
+21:58:54.925988 OUT Elapsed: 0s
+21:58:54.925988 IN Elapsed: 500.9µs
+21:58:54.926487 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 3[0m
+21:58:54.926487 [92m                textDocument/documentSymbol 2: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server2213225702/sketch/sketch_may27a.ino.cpp (0 document symbols)[0m
+21:58:54.926487 [92m                textDocument/documentSymbol 2: [93mread-unlocked[0m[0m
+21:58:54.926487 [32mIDE <-- LS RESP textDocument/documentSymbol 2[0m
+21:58:54.926487 OUT Elapsed: 0s
+21:58:54.926487 IN Elapsed: 0s
+21:58:54.926487 [92mIDE --> LS REQU shutdown 3[0m
+21:58:54.926487 [91mIDE     LS --> Clangd REQU shutdown 4[0m
+21:58:54.926487 OUT Elapsed: 0s
+21:58:54.926487 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:54.926487 IN Elapsed: 498.4µs
+21:58:54.926487 OUT Elapsed: 0s
+21:58:54.926487 [31mIDE     LS <-- Clangd RESP shutdown 4[0m
+21:58:54.926487 [32mIDE <-- LS RESP shutdown 3[0m
+21:58:54.926487 OUT Elapsed: 0s
+21:58:54.926487 IN Elapsed: 0s
+21:58:54.926487 IN Elapsed: 0s
+21:58:54.926487 IN Elapsed: 0s
+21:58:54.926487 [32mIDE --> LS RESP window/workDoneProgress/create 1[105;97;5m ERROR: -32603 Request window/workDoneProgress/create failed with message: Language client is not ready yet[0m[0m
+21:58:54.926487 ProgressHandler: error creating token backgroundIndexProgress: -32603 Request window/workDoneProgress/create failed with message: Language client is not ready yet
+21:58:54.927987 IN Elapsed: 1.5004ms
+21:58:54.927987 [92mIDE --> LS NOTIF exit[0m
+21:58:54.927987 [91mIDE     LS --> Clangd NOTIF exit[0m
+
+
+
+
+
+
+
+Started logging.
+21:58:54.994986 Language server launched with arguments:
+21:58:54.994986   arg[0] = c:\Users\cengi\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+21:58:54.994986   arg[1] = -clangd
+21:58:54.994986   arg[2] = c:\Users\cengi\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+21:58:54.994986   arg[3] = -cli-daemon-addr
+21:58:54.994986   arg[4] = localhost:60527
+21:58:54.994986   arg[5] = -cli-daemon-instance
+21:58:54.994986   arg[6] = 1
+21:58:54.994986   arg[7] = -fqbn
+21:58:54.994986   arg[8] = arduino:avr:uno
+21:58:54.994986   arg[9] = -skip-libraries-discovery-on-rebuild
+21:58:54.994986   arg[10] = -board-name
+21:58:54.994986   arg[11] = "Arduino Uno"
+21:58:54.994986   arg[12] = -no-real-time-diagnostics
+21:58:54.994986   arg[13] = -log
+21:58:54.994986   arg[14] = -logpath
+21:58:54.994986   arg[15] = c:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a
+21:58:54.994986 logging to c:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\inols.log
+21:58:54.997987 [97mLS: : Initial board configuration: arduino:avr:uno[0m
+21:58:54.997987 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+21:58:54.997987 [97mLS: : Language server build path: C:\Users\cengi\AppData\Local\Temp\arduino-language-server3920032528[0m
+21:58:54.997987 [97mLS: : Language server build sketch root: C:\Users\cengi\AppData\Local\Temp\arduino-language-server3920032528\sketch[0m
+21:58:54.997987 [97mLS: : Language server FULL build path: C:\Users\cengi\AppData\Local\Temp\arduino-language-server957698134[0m
+21:58:54.997987 IN Elapsed: 0s
+21:58:54.997987 [92mIDE --> LS REQU initialize 0[0m
+21:58:54.998986 [92m                initialize 0: [93mwrite-locked[0m[0m
+21:58:54.999487 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+21:58:54.999487 [96mINIT --- : initializing workbench: file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a[0m
+21:58:54.999487 [96mINIT --- : [93mread-locked[0m[0m
+21:58:54.999487 [96mINIT --- : [93mread-unlocked[0m[0m
+21:58:54.999988 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+21:58:54.999988 [32mIDE <-- LS RESP initialize 0[0m
+21:58:54.999988 OUT Elapsed: 0s
+21:58:55.001487 IN Elapsed: 1.4995ms
+21:58:55.001487 [92mIDE --> LS NOTIF initialized[0m
+21:58:55.001487 [92m                 initialized: Notification is not propagated to clangd[0m
+21:58:55.001487 IN Elapsed: 0s
+21:58:55.001487 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+21:58:55.001487 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+21:58:55.001487 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+21:58:55.001487 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+21:58:55.306488 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:uno",
+  "sketch_path": "C:\\Users\\cengi\\AppData\\Local\\Temp\\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\\sketch_may27a",
+  "build_path": "C:\\Users\\cengi\\AppData\\Local\\Temp\\arduino-language-server957698134",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+21:58:55.667987 [96mINIT --- : Compile successful![0m
+21:58:55.670488 [96mINIT --- : Updated 'libraries.cache'. Copied: C:\Users\cengi\AppData\Local\Temp\arduino-language-server957698134\libraries.cache to C:\Users\cengi\AppData\Local\Temp\arduino-language-server3920032528\libraries.cache[0m
+21:58:55.670488 [96mINIT --- : [93mread-locked[0m[0m
+21:58:55.670988 [96mINIT --- : [93mread-unlocked[0m[0m
+21:58:55.972487 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:uno",
+  "sketch_path": "C:\\Users\\cengi\\AppData\\Local\\Temp\\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\\sketch_may27a",
+  "build_path": "C:\\Users\\cengi\\AppData\\Local\\Temp\\arduino-language-server3920032528",
+  "verbose": true,
+  "create_compilation_database_only": true,
+  "skip_libraries_discovery": true
+}[0m
+21:58:56.235562 [96mINIT --- : Compile successful![0m
+21:58:56.544881 [96mINIT --- : Arduino Data Dir -> C:\Users\cengi\AppData\Local\Arduino15[0m
+21:58:56.545880 [96mINIT --- :     Starting clangd: c:\Users\cengi\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe -log=verbose --compile-commands-dir=C:\Users\cengi\AppData\Local\Temp\arduino-language-server3920032528 -query-driver=C:\Users\cengi\AppData\Local\Arduino15\packages\**[0m
+21:58:56.549379 logging to c:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\inols-clangd.log
+21:58:56.549379 logging to c:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\inols-clangd-err.log
+21:58:56.549379 [91mIDE     LS --> Clangd REQU initialize 1[0m
+21:58:56.549879 OUT Elapsed: 500µs
+21:58:56.591879 IN Elapsed: 42.4993ms
+21:58:56.591879 [31mIDE     LS <-- Clangd RESP initialize 1[0m
+21:58:56.591879 [96mINIT --- : clangd successfully started: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/","*"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"]},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",")","{","}","\u003c","\u003e",","]},"declarationProvider":{},"definitionProvider":{},"typeDefinitionProvider":{},"implementationProvider":{},"referencesProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentLinkProvider":{},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{"prepareProvider":true},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"selectionRangeProvider":{},"callHierarchyProvider":{},"semanticTokensProvider":{"legend":{"tokenTypes":["variable","variable","parameter","function","method","function","property","variable","class","interface","enum","enumMember","type","type","unknown","namespace","typeParameter","concept","type","macro","comment"],"tokenModifiers":["declaration","deprecated","deduced","readonly","static","abstract","virtual","dependentName","defaultLibrary","usedAsMutableReference","functionScope","classScope","fileScope","globalScope"]},"range":false,"full":{"delta":true}},"workspaceSymbolProvider":{}},"serverInfo":{"name":"clangd","version":"clangd version 14.0.0 windows x86_64-pc-windows-msvc"}}[0m
+21:58:56.591879 [91mIDE     LS --> Clangd NOTIF initialized[0m
+21:58:56.591879 OUT Elapsed: 0s
+21:58:56.591879 [96mINIT --- : Done initializing workbench[0m
+21:58:56.591879 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+21:58:56.592380 [92m                 textDocument/didOpen: URI: file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino -> file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp[0m
+21:58:56.593880 [92m                 textDocument/didOpen: Increasing .ino tracked files count to 1[0m
+21:58:56.593880 [91mIDE     LS --> Clangd NOTIF textDocument/didOpen[0m
+21:58:56.593880 OUT Elapsed: 0s
+21:58:56.594379 [92m                 textDocument/didOpen: [93mwrite-unlocked[0m[0m
+21:58:56.594379 IN Elapsed: 0s
+21:58:56.594379 [92mIDE --> LS REQU textDocument/codeAction 1[0m
+21:58:56.594379 [92m                textDocument/codeAction 1: [93mread-locked[0m[0m
+21:58:56.594379 [92m                textDocument/codeAction 1: --> codeAction(file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:0:0)[0m
+21:58:56.594880 [92m                textDocument/codeAction 1: URI: file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino -> file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp[0m
+21:58:56.595880 [92m                textDocument/codeAction 1:     --> codeAction(file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:0:0)[0m
+21:58:56.595880 [91mIDE     LS --> Clangd REQU textDocument/codeAction 2[0m
+21:58:56.595880 OUT Elapsed: 0s
+21:58:56.595880 IN Elapsed: 4.0012ms
+21:58:56.595880 [91mIDE     LS <-- Clangd NOTIF textDocument/publishDiagnostics[0m
+21:58:56.595880 [91m                            textDocument/publishDiagnostics: Ignored by configuration[0m
+21:58:56.598879 IN Elapsed: 2.9988ms
+21:58:56.598879 [91mIDE     LS <-- Clangd NOTIF textDocument/publishDiagnostics[0m
+21:58:56.598879 [91m                            textDocument/publishDiagnostics: Ignored by configuration[0m
+21:58:56.598879 IN Elapsed: 0s
+21:58:56.598879 [91mIDE     LS <-- Clangd REQU window/workDoneProgress/create 0[0m
+21:58:56.598879 [31mIDE     LS --> Clangd RESP window/workDoneProgress/create 0[0m
+21:58:56.598879 [92mIDE <-- LS REQU window/workDoneProgress/create 1[0m
+21:58:56.598879 OUT Elapsed: 0s
+21:58:56.598879 OUT Elapsed: 0s
+21:58:56.598879 IN Elapsed: 0s
+21:58:56.598879 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.598879 [91m                            $/progress: backgroundIndexProgress BEGIN indexing, 0.0%[0m
+21:58:56.598879 IN Elapsed: 0s
+21:58:56.598879 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.598879 [91m                            $/progress: backgroundIndexProgress REPORT, 0/1, 0.0%[0m
+21:58:56.602880 IN Elapsed: 4.0012ms
+21:58:56.602880 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.602880 [91m                            $/progress: backgroundIndexProgress REPORT, 0/27, 0.0%[0m
+21:58:56.602880 IN Elapsed: 0s
+21:58:56.602880 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.602880 [91m                            $/progress: backgroundIndexProgress REPORT, 0/27, 0.0%[0m
+21:58:56.602880 IN Elapsed: 0s
+21:58:56.602880 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.602880 [91m                            $/progress: backgroundIndexProgress REPORT, 0/27, 0.0%[0m
+21:58:56.602880 IN Elapsed: 0s
+21:58:56.602880 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.602880 [91m                            $/progress: backgroundIndexProgress REPORT, 0/27, 0.0%[0m
+21:58:56.602880 IN Elapsed: 0s
+21:58:56.602880 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.602880 [91m                            $/progress: backgroundIndexProgress REPORT, 0/27, 0.0%[0m
+21:58:56.602880 IN Elapsed: 0s
+21:58:56.602880 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.602880 [91m                            $/progress: backgroundIndexProgress REPORT, 0/27, 0.0%[0m
+21:58:56.602880 IN Elapsed: 0s
+21:58:56.602880 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.602880 [91m                            $/progress: backgroundIndexProgress REPORT, 1/27, 3.0%[0m
+21:58:56.603379 IN Elapsed: 499.5µs
+21:58:56.603379 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.603379 [91m                            $/progress: backgroundIndexProgress REPORT, 1/27, 3.0%[0m
+21:58:56.603379 IN Elapsed: 0s
+21:58:56.603379 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.603379 [91m                            $/progress: backgroundIndexProgress REPORT, 1/27, 3.0%[0m
+21:58:56.603379 IN Elapsed: 0s
+21:58:56.603379 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.603379 [91m                            $/progress: backgroundIndexProgress REPORT, 1/27, 3.0%[0m
+21:58:56.680379 IN Elapsed: 77.0002ms
+21:58:56.680379 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.680379 [91m                            $/progress: backgroundIndexProgress REPORT, 2/27, 7.0%[0m
+21:58:56.680379 IN Elapsed: 0s
+21:58:56.680379 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.680379 [91m                            $/progress: backgroundIndexProgress REPORT, 2/27, 7.0%[0m
+21:58:56.693455 IN Elapsed: 13.0757ms
+21:58:56.693455 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.693455 [91m                            $/progress: backgroundIndexProgress REPORT, 3/27, 11.0%[0m
+21:58:56.693455 IN Elapsed: 0s
+21:58:56.693455 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:56.693455 [91m                            $/progress: backgroundIndexProgress REPORT, 3/27, 11.0%[0m
+21:58:56.785379 IN Elapsed: 91.9234ms
+21:58:56.785379 [91mIDE     LS <-- Clangd NOTIF textDocument/publishDiagnostics[0m
+21:58:56.785880 IN Elapsed: 0s
+21:58:56.785880 [91m                            textDocument/publishDiagnostics: Ignored by configuration[0m
+21:58:56.785880 [31mIDE     LS <-- Clangd RESP textDocument/codeAction 2[0m
+21:58:56.785880 [92m                textDocument/codeAction 1: [93mread-unlocked[0m[0m
+21:58:56.785880 [32mIDE <-- LS RESP textDocument/codeAction 1[0m
+21:58:56.785880 OUT Elapsed: 0s
+21:58:56.785880 IN Elapsed: 0s
+21:58:56.785880 [92mIDE --> LS REQU textDocument/documentSymbol 2[0m
+21:58:56.785880 [92m                textDocument/documentSymbol 2: [93mread-locked[0m[0m
+21:58:56.786381 [92m                textDocument/documentSymbol 2: URI: file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino -> file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp[0m
+21:58:56.786381 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 3[0m
+21:58:56.786381 OUT Elapsed: 0s
+21:58:56.786381 IN Elapsed: 500.2µs
+21:58:56.786880 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 3[0m
+21:58:56.786880 [92m                textDocument/documentSymbol 2: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp (0 document symbols)[0m
+21:58:56.786880 [92m                textDocument/documentSymbol 2: [93mread-unlocked[0m[0m
+21:58:56.786880 [32mIDE <-- LS RESP textDocument/documentSymbol 2[0m
+21:58:56.786880 OUT Elapsed: 0s
+21:58:56.786880 IN Elapsed: 0s
+21:58:56.786880 IN Elapsed: 0s
+21:58:56.786880 [92mIDE --> LS REQU textDocument/documentSymbol 3[0m
+21:58:56.786880 [92m                textDocument/documentSymbol 3: [93mread-locked[0m[0m
+21:58:56.787379 [92m                textDocument/documentSymbol 3: URI: file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino -> file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp[0m
+21:58:56.787379 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 4[0m
+21:58:56.787379 OUT Elapsed: 0s
+21:58:56.787379 IN Elapsed: 998.3µs
+21:58:56.787379 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 4[0m
+21:58:56.787379 [92m                textDocument/documentSymbol 3: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp (0 document symbols)[0m
+21:58:56.787379 [92m                textDocument/documentSymbol 3: [93mread-unlocked[0m[0m
+21:58:56.787379 [32mIDE <-- LS RESP textDocument/documentSymbol 3[0m
+21:58:56.787379 OUT Elapsed: 0s
+21:58:56.787379 IN Elapsed: 0s
+21:58:56.787379 IN Elapsed: 0s
+21:58:56.787379 [32mIDE --> LS RESP window/workDoneProgress/create 1[0m
+21:58:56.787379 IN Elapsed: 0s
+21:58:56.787880 [92mIDE --> LS REQU textDocument/documentSymbol 4[0m
+21:58:56.787880 [92m                textDocument/documentSymbol 4: [93mread-locked[0m[0m
+21:58:56.787880 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:56.787880 OUT Elapsed: 0s
+21:58:56.787880 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:56.787880 OUT Elapsed: 0s
+21:58:56.788381 [92m                textDocument/documentSymbol 4: URI: file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino -> file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp[0m
+21:58:56.788381 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 5[0m
+21:58:56.788381 OUT Elapsed: 0s
+21:58:56.788381 IN Elapsed: 1.0026ms
+21:58:56.788381 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 5[0m
+21:58:56.788381 [92m                textDocument/documentSymbol 4: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp (0 document symbols)[0m
+21:58:56.788381 [92m                textDocument/documentSymbol 4: [93mread-unlocked[0m[0m
+21:58:56.788381 [32mIDE <-- LS RESP textDocument/documentSymbol 4[0m
+21:58:56.788381 OUT Elapsed: 0s
+21:58:56.942379 IN Elapsed: 153.9976ms
+21:58:56.942379 [92mIDE --> LS REQU textDocument/documentSymbol 5[0m
+21:58:56.942379 [92m                textDocument/documentSymbol 5: [93mread-locked[0m[0m
+21:58:56.942879 [92m                textDocument/documentSymbol 5: URI: file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino -> file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp[0m
+21:58:56.942879 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 6[0m
+21:58:56.942879 OUT Elapsed: 0s
+21:58:56.942879 IN Elapsed: 154.4974ms
+21:58:56.943379 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 6[0m
+21:58:56.943379 [92m                textDocument/documentSymbol 5: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp (0 document symbols)[0m
+21:58:56.943379 [92m                textDocument/documentSymbol 5: [93mread-unlocked[0m[0m
+21:58:56.943379 [32mIDE <-- LS RESP textDocument/documentSymbol 5[0m
+21:58:56.943379 OUT Elapsed: 0s
+21:58:56.943379 IN Elapsed: 0s
+21:58:56.943379 [92mIDE --> LS NOTIF textDocument/didChange[0m
+21:58:56.943379 [92m                 textDocument/didChange: [93mwrite-locked[0m[0m
+21:58:56.943379 [92m                 textDocument/didChange: didChange(file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino@4)[0m
+21:58:56.943379 [92m                 textDocument/didChange:   > 0:0-9:0 (len=129) -> "const int buttonPin = 2;\nconst int startLED = 3;\nconst int testLED = 4;\n\nvoid setup() {\n  // put your setup code here, to run once:\n  pinMode(startLED, OUTPUT);\n  pinMode(testLED, OUTPUT);\n  digitalWrite(startLED, HIGH);\n  digitalWrite(testLED, HIGH);\n  pinMode(buttonPin, INPUT_PULLUP);\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  // put your main code here, to run repeatedly:\n  int buttonState = digitalRead(buttonPin);\n\n  if (buttonState == LOW) {\n    startTest();\n  }\n}\n\nvoid startTest() {\n  Serial.println(\"Test Started!\");\n  blinkLEDWithDuration(250, startLED);\n  delay(250);\n  for (int i = 0; i <= 20; i++) {\n    blinkLEDWithDuration(50, testLED);\n  }\n}\n\nvoid blinkLEDWithDuration(int delayTime, int pin) {\n  digitalWrite(pin, LOW);\n  delay(delayTime);\n  digitalWrite(pin, HIGH);\n  delay(delayTime);\n}\n"[0m
+21:58:56.943880 [92m                 textDocument/didChange: -----Tracked SKETCH file-----
+const int buttonPin = 2;
+const int startLED = 3;
+const int testLED = 4;
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(startLED, OUTPUT);
+  pinMode(testLED, OUTPUT);
+  digitalWrite(startLED, HIGH);
+  digitalWrite(testLED, HIGH);
+  pinMode(buttonPin, INPUT_PULLUP);
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  int buttonState = digitalRead(buttonPin);
+
+  if (buttonState == LOW) {
+    startTest();
+  }
+}
+
+void startTest() {
+  Serial.println("Test Started!");
+  blinkLEDWithDuration(250, startLED);
+  delay(250);
+  for (int i = 0; i <= 20; i++) {
+    blinkLEDWithDuration(50, testLED);
+  }
+}
+
+void blinkLEDWithDuration(int delayTime, int pin) {
+  digitalWrite(pin, LOW);
+  delay(delayTime);
+  digitalWrite(pin, HIGH);
+  delay(delayTime);
+}
+
+-----------------------------[0m
+21:58:56.944380 [92m                 textDocument/didChange: URI: file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino -> file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp[0m
+21:58:56.947380 Ino Range: 0:0-9:0 -> Cpp Range:2:0-11:0
+21:58:56.947879   > Current sketchmapper content:
+21:58:56.947879   0: #include <Arduino.h>                                         | /not-ino:0                                         
+21:58:56.947879   1: #line 1 "C:\\Users\\cengi\\AppData\\Local\\Temp\\.arduinoIDE | /not-ino:0                                         
+21:58:56.947879   2: const int buttonPin = 2;                                     | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:0                          
+21:58:56.947879   3: const int startLED = 3;                                      | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:1                          
+21:58:56.947879   4: const int testLED = 4;                                       | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:2                          
+21:58:56.947879   5:                                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:3                          
+21:58:56.947879   6: void setup() {                                               | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:4                          
+21:58:56.947879   7:   // put your setup code here, to run once:                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:5                          
+21:58:56.947879   8:   pinMode(startLED, OUTPUT);                                 | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:6                          
+21:58:56.947879   9:   pinMode(testLED, OUTPUT);                                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:7                          
+21:58:56.947879  10:   digitalWrite(startLED, HIGH);                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:8                          
+21:58:56.947879  11:   digitalWrite(testLED, HIGH);                               | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:9                          
+21:58:56.947879  12:   pinMode(buttonPin, INPUT_PULLUP);                          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:10                          
+21:58:56.947879  13:   Serial.begin(9600);                                        | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:11                          
+21:58:56.947879  14: }                                                            | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:12                          
+21:58:56.947879  15:                                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:13                          
+21:58:56.947879  16: void loop() {                                                | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:14                          
+21:58:56.947879  17:   // put your main code here, to run repeatedly:             | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:15                          
+21:58:56.947879  18:   int buttonState = digitalRead(buttonPin);                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:16                          
+21:58:56.947879  19:                                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:17                          
+21:58:56.947879  20:   if (buttonState == LOW) {                                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:18                          
+21:58:56.947879  21:     startTest();                                             | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:19                          
+21:58:56.947879  22:   }                                                          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:20                          
+21:58:56.947879  23: }                                                            | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:21                          
+21:58:56.947879  24:                                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:22                          
+21:58:56.947879  25: void startTest() {                                           | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:23                          
+21:58:56.947879  26:   Serial.println("Test Started!");                           | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:24                          
+21:58:56.947879  27:   blinkLEDWithDuration(250, startLED);                       | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:25                          
+21:58:56.947879  28:   delay(250);                                                | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:26                          
+21:58:56.947879  29:   for (int i = 0; i <= 20; i++) {                            | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:27                          
+21:58:56.947879  30:     blinkLEDWithDuration(50, testLED);                       | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:28                          
+21:58:56.947879  31:   }                                                          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:29                          
+21:58:56.947879  32: }                                                            | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:30                          
+21:58:56.947879  33:                                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:31                          
+21:58:56.947879  34: void blinkLEDWithDuration(int delayTime, int pin) {          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:32                          
+21:58:56.947879  35:   digitalWrite(pin, LOW);                                    | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:33                          
+21:58:56.947879  36:   delay(delayTime);                                          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:34                          
+21:58:56.947879  37:   digitalWrite(pin, HIGH);                                   | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:35                          
+21:58:56.947879  38:   delay(delayTime);                                          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:36                          
+21:58:56.947879  39: }                                                            | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:37                          
+21:58:56.947879  40: hardware/arduino/bootloaders/caterina_LUFA/Caterina.map      | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:38                          
+21:58:56.947879  41: hardware/arduino/bootloaders/caterina_LUFA/Caterina.lst      | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:39                          
+21:58:56.947879  42: hardware/arduino/bootloaders/caterina_LUFA/Caterina.lss      | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:40                          
+21:58:56.947879  43: hardware/arduino/bootloaders/caterina_LUFA/Caterina.elf      | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:41                          
+21:58:56.947879  44: hardware/arduino/bootloaders/caterina_LUFA/Caterina.eep      | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:42                          
+21:58:56.947879  45: hardware/arduino/bootloaders/caterina_LUFA/.dep/             | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:43                          
+21:58:56.947879  46: build/*.zip                                                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:44                          
+21:58:56.947879  47: build/*.tar.bz2                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:45                          
+21:58:56.947879  48: build/windows/work/                                          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:46                          
+21:58:56.947879  49: build/windows/*.zip                                          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:47                          
+21:58:56.947879  50: build/windows/*.tgz                                          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:48                          
+21:58:56.947879  51: build/windows/*.tar.bz2                                      | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:49                          
+21:58:56.947879  52: build/windows/libastylej*                                    | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:50                          
+21:58:56.947879  53: build/windows/liblistSerials*                                | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:51                          
+21:58:56.947879  54: build/windows/arduino-*.zip                                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:52                          
+21:58:56.947879  55: build/windows/dist/*.tar.gz                                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:53                          
+21:58:56.947879  56: build/windows/dist/*.tar.bz2                                 | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:54                          
+21:58:56.948381  57: build/windows/launch4j-*.tgz                                 | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:55                          
+21:58:56.948381  58: build/windows/launch4j-*.zip                                 | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:56                          
+21:58:56.948381  59: build/windows/launcher/launch4j                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:57                          
+21:58:56.948381  60: build/windows/WinAVR-*.zip                                   | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:58                          
+21:58:56.948381  61: build/macosx/arduino-*.zip                                   | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:59                          
+21:58:56.948381  62: build/macosx/dist/*.tar.gz                                   | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:60                          
+21:58:56.948381  63: build/macosx/dist/*.tar.bz2                                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:61                          
+21:58:56.948381  64: build/macosx/*.tar.bz2                                       | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:62                          
+21:58:56.948381  65: build/macosx/libastylej*                                     | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:63                          
+21:58:56.948381  66: build/macosx/appbundler*.jar                                 | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:64                          
+21:58:56.948381  67: build/macosx/appbundler*.zip                                 | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:65                          
+21:58:56.948381  68: build/macosx/appbundler                                      | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:66                          
+21:58:56.948381  69: build/macosx/appbundler-1.0ea-arduino?                       | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:67                          
+21:58:56.948381  70: build/macosx/appbundler-1.0ea-arduino*.zip                   | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:68                          
+21:58:56.948381  71: build/macosx/appbundler-1.0ea-upstream*.zip                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:69                          
+21:58:56.948381  72: build/linux/work/                                            | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:70                          
+21:58:56.948381  73: build/linux/dist/*.tar.gz                                    | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:71                          
+21:58:56.948381  74: build/linux/dist/*.tar.bz2                                   | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:72                          
+21:58:56.948381  75: build/linux/*.tgz                                            | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:73                          
+21:58:56.948381  76: build/linux/*.tar.xz                                         | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:74                          
+21:58:56.948381  77: build/linux/*.tar.bz2                                        | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:75                          
+21:58:56.948381  78: build/linux/*.zip                                            | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:76                          
+21:58:56.948381  79: build/linux/libastylej*                                      | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:77                          
+21:58:56.948381  80: build/linux/liblistSerials*                                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:78                          
+21:58:56.948381  81: build/shared/arduino-examples*                               | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:79                          
+21:58:56.948381  82: build/shared/reference*.zip                                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:80                          
+21:58:56.948381  83: build/shared/Edison*.zip                                     | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:81                          
+21:58:56.948381  84: build/shared/Galileo*.zip                                    | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:82                          
+21:58:56.948381  85: build/shared/WiFi101-Updater-ArduinoIDE-Plugin*.zip          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:83                          
+21:58:56.948381  86: test-bin                                                     | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:84                          
+21:58:56.948381  87: *.iml                                                        | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:85                          
+21:58:56.948381  88: .idea                                                        | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:86                          
+21:58:56.948381  89: .DS_Store                                                    | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:87                          
+21:58:56.948381  90: .directory                                                   | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:88                          
+21:58:56.948381  91: hardware/arduino/avr/libraries/Bridge/examples/XivelyClient/ | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:89                          
+21:58:56.948381  92: avr-toolchain-*.zip                                          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:90                          
+21:58:56.948381  93: /app/nbproject/private/                                      | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:91                          
+21:58:56.948381  94: /arduino-core/nbproject/private/                             | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:92                          
+21:58:56.948381  95: /app/build/                                                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:93                          
+21:58:56.948381  96: /arduino-core/build/                                         | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:94                          
+21:58:56.948381  97:                                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:95                          
+21:58:56.948381  98: manifest.mf                                                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:96                          
+21:58:56.948381  99: nbbuild.xml                                                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:97                          
+21:58:56.948381 100: nbproject                                                    | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:98                          
+21:58:56.948381 101:                                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:99                          
+21:58:56.948381 [92m                 textDocument/didChange: to Clang: didChange(file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp@2)[0m
+21:58:56.948381 [92m                 textDocument/didChange:             > 2:0-11:0 -> "const int buttonPin = 2;\nconst int startLED = 3;\nconst int testLED = 4;\n\nvoid setup() {\n  // put your setup code here, to run once:\n  pinMode(startLED, OUTPUT);\n  pinMode(testLED, OUTPUT);\n  digitalWrite(startLED, HIGH);\n  digitalWrite(testLED, HIGH);\n  pinMode(buttonPin, INPUT_PULLUP);\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  // put your main code here, to run repeatedly:\n  int buttonState = digitalRead(buttonPin);\n\n  if (buttonState == LOW) {\n    startTest();\n  }\n}\n\nvoid startTest() {\n  Serial.println(\"Test Started!\");\n  blinkLEDWithDuration(250, startLED);\n  delay(250);\n  for (int i = 0; i <= 20; i++) {\n    blinkLEDWithDuration(50, testLED);\n  }\n}\n\nvoid blinkLEDWithDuration(int delayTime, int pin) {\n  digitalWrite(pin, LOW);\n  delay(delayTime);\n  digitalWrite(pin, HIGH);\n  delay(delayTime);\n}\n"[0m
+21:58:56.948381 [91mIDE     LS --> Clangd NOTIF textDocument/didChange[0m
+21:58:56.948880 OUT Elapsed: 0s
+21:58:56.948880 [92m                 textDocument/didChange: [93mwrite-unlocked[0m[0m
+21:58:56.948880 IN Elapsed: 0s
+21:58:56.948880 IN Elapsed: 0s
+21:58:56.948880 [92mIDE --> LS REQU textDocument/documentSymbol 6[0m
+21:58:56.948880 [92m                textDocument/documentSymbol 6: [93mread-locked[0m[0m
+21:58:56.949379 [92m                textDocument/documentSymbol 6: URI: file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino -> file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp[0m
+21:58:56.949379 [91mIDE     LS --> Clangd REQU textDocument/documentSymbol 7[0m
+21:58:56.949379 OUT Elapsed: 0s
+21:58:57.043383 IN Elapsed: 100.0035ms
+21:58:57.043880 [31mIDE     LS <-- Clangd RESP textDocument/documentSymbol 7[0m
+21:58:57.043880 [92m                textDocument/documentSymbol 6: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp (7 document symbols)[0m
+21:58:57.043880 [92m                textDocument/documentSymbol 6:   > convert SymbolKind:Variable 2:0-2:23[0m
+21:58:57.044381 IN Elapsed: 998µs
+21:58:57.044381 [91mIDE     LS <-- Clangd NOTIF textDocument/publishDiagnostics[0m
+21:58:57.044381 [92m                textDocument/documentSymbol 6: Range: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:2:0-2:23 -> file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:0:0-0:23 (.ino)[0m
+21:58:57.044381 [91m                            textDocument/publishDiagnostics: Ignored by configuration[0m
+21:58:57.044880 [92m                textDocument/documentSymbol 6: Range: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:2:10-2:19 -> file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:0:10-0:19 (.ino)[0m
+21:58:57.044880 [92m                textDocument/documentSymbol 6: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp (0 document symbols)[0m
+21:58:57.044880 [92m                textDocument/documentSymbol 6:   > convert SymbolKind:Variable 3:0-3:22[0m
+21:58:57.045881 [92m                textDocument/documentSymbol 6: Range: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:3:0-3:22 -> file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:1:0-1:22 (.ino)[0m
+21:58:57.046382 [92m                textDocument/documentSymbol 6: Range: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:3:10-3:18 -> file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:1:10-1:18 (.ino)[0m
+21:58:57.046382 [92m                textDocument/documentSymbol 6: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp (0 document symbols)[0m
+21:58:57.046382 [92m                textDocument/documentSymbol 6:   > convert SymbolKind:Variable 4:0-4:21[0m
+21:58:57.046880 [92m                textDocument/documentSymbol 6: Range: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:4:0-4:21 -> file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:2:0-2:21 (.ino)[0m
+21:58:57.047879 [92m                textDocument/documentSymbol 6: Range: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:4:10-4:17 -> file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:2:10-2:17 (.ino)[0m
+21:58:57.047879 [92m                textDocument/documentSymbol 6: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp (0 document symbols)[0m
+21:58:57.047879 [92m                textDocument/documentSymbol 6:   > convert SymbolKind:Function 6:0-14:1[0m
+21:58:57.048381 [92m                textDocument/documentSymbol 6: Range: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:6:0-14:1 -> file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:4:0-12:1 (.ino)[0m
+21:58:57.048879 [92m                textDocument/documentSymbol 6: Range: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:6:5-6:10 -> file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:4:5-4:10 (.ino)[0m
+21:58:57.048879 [92m                textDocument/documentSymbol 6: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp (0 document symbols)[0m
+21:58:57.048879 [92m                textDocument/documentSymbol 6:   > convert SymbolKind:Function 16:0-23:1[0m
+21:58:57.049379 [92m                textDocument/documentSymbol 6: Range: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:16:0-23:1 -> file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:14:0-21:1 (.ino)[0m
+21:58:57.049880 [92m                textDocument/documentSymbol 6: Range: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:16:5-16:9 -> file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:14:5-14:9 (.ino)[0m
+21:58:57.049880 [92m                textDocument/documentSymbol 6: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp (0 document symbols)[0m
+21:58:57.049880 [92m                textDocument/documentSymbol 6:   > convert SymbolKind:Function 25:0-32:1[0m
+21:58:57.050379 [92m                textDocument/documentSymbol 6: Range: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:25:0-32:1 -> file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:23:0-30:1 (.ino)[0m
+21:58:57.050880 [92m                textDocument/documentSymbol 6: Range: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:25:5-25:14 -> file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:23:5-23:14 (.ino)[0m
+21:58:57.050880 [92m                textDocument/documentSymbol 6: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp (0 document symbols)[0m
+21:58:57.050880 [92m                textDocument/documentSymbol 6:   > convert SymbolKind:Function 34:0-39:1[0m
+21:58:57.050880 [92m                textDocument/documentSymbol 6: Range: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:34:0-39:1 -> file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:32:0-37:1 (.ino)[0m
+21:58:57.051880 [92m                textDocument/documentSymbol 6: Range: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp:34:5-34:25 -> file:///c%3A/Users/cengi/AppData/Local/Temp/.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d/sketch_may27a/sketch_may27a.ino:32:5-32:25 (.ino)[0m
+21:58:57.051880 [92m                textDocument/documentSymbol 6: file:///c%3A/Users/cengi/AppData/Local/Temp/arduino-language-server3920032528/sketch/sketch_may27a.ino.cpp (0 document symbols)[0m
+21:58:57.051880 [92m                textDocument/documentSymbol 6: [93mread-unlocked[0m[0m
+21:58:57.051880 [32mIDE <-- LS RESP textDocument/documentSymbol 6[0m
+21:58:57.051880 OUT Elapsed: 0s
+21:58:57.054380 IN Elapsed: 9.9993ms
+21:58:57.054380 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.054380 [91m                            $/progress: backgroundIndexProgress REPORT, 4/27, 14.0%[0m
+21:58:57.054380 IN Elapsed: 0s
+21:58:57.054881 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.054881 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.054881 OUT Elapsed: 0s
+21:58:57.054881 [91m                            $/progress: backgroundIndexProgress REPORT, 4/27, 14.0%[0m
+21:58:57.054881 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.054881 OUT Elapsed: 0s
+21:58:57.102005 IN Elapsed: 47.1242ms
+21:58:57.102005 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.102005 [91m                            $/progress: backgroundIndexProgress REPORT, 5/27, 18.0%[0m
+21:58:57.102005 IN Elapsed: 0s
+21:58:57.102005 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.102005 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.102005 OUT Elapsed: 0s
+21:58:57.102005 [91m                            $/progress: backgroundIndexProgress REPORT, 5/27, 18.0%[0m
+21:58:57.102005 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.102005 OUT Elapsed: 0s
+21:58:57.166436 IN Elapsed: 64.3759ms
+21:58:57.166436 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.166436 [91m                            $/progress: backgroundIndexProgress REPORT, 6/27, 22.0%[0m
+21:58:57.166436 IN Elapsed: 0s
+21:58:57.166436 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.166436 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.166436 [91m                            $/progress: backgroundIndexProgress REPORT, 6/27, 22.0%[0m
+21:58:57.166436 OUT Elapsed: 0s
+21:58:57.166436 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.166436 OUT Elapsed: 0s
+21:58:57.181879 IN Elapsed: 15.443ms
+21:58:57.181879 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.181879 [91m                            $/progress: backgroundIndexProgress REPORT, 7/27, 25.0%[0m
+21:58:57.181879 IN Elapsed: 0s
+21:58:57.181879 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.181879 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.181879 [91m                            $/progress: backgroundIndexProgress REPORT, 7/27, 25.0%[0m
+21:58:57.181879 OUT Elapsed: 0s
+21:58:57.181879 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.181879 OUT Elapsed: 0s
+21:58:57.188381 IN Elapsed: 6.5016ms
+21:58:57.188881 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.188881 [91m                            $/progress: backgroundIndexProgress REPORT, 8/27, 29.0%[0m
+21:58:57.188881 IN Elapsed: 0s
+21:58:57.188881 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.188881 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.188881 [91m                            $/progress: backgroundIndexProgress REPORT, 8/27, 29.0%[0m
+21:58:57.188881 OUT Elapsed: 0s
+21:58:57.188881 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.188881 OUT Elapsed: 0s
+21:58:57.246378 IN Elapsed: 57.4977ms
+21:58:57.246378 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.246878 [91m                            $/progress: backgroundIndexProgress REPORT, 9/27, 33.0%[0m
+21:58:57.246878 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.246878 OUT Elapsed: 0s
+21:58:57.246878 IN Elapsed: 0s
+21:58:57.246878 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.246878 [91m                            $/progress: backgroundIndexProgress REPORT, 9/27, 33.0%[0m
+21:58:57.246878 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.246878 OUT Elapsed: 0s
+21:58:57.319804 IN Elapsed: 72.9264ms
+21:58:57.319804 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.319880 [91m                            $/progress: backgroundIndexProgress REPORT, 10/27, 37.0%[0m
+21:58:57.319880 IN Elapsed: 0s
+21:58:57.319880 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.319880 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.319880 [91m                            $/progress: backgroundIndexProgress REPORT, 10/27, 37.0%[0m
+21:58:57.319880 OUT Elapsed: 0s
+21:58:57.319880 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.319880 OUT Elapsed: 0s
+21:58:57.367670 IN Elapsed: 47.7894ms
+21:58:57.367670 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.367670 [91m                            $/progress: backgroundIndexProgress REPORT, 11/27, 40.0%[0m
+21:58:57.367670 IN Elapsed: 0s
+21:58:57.367670 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.367670 [91m                            $/progress: backgroundIndexProgress REPORT, 11/27, 40.0%[0m
+21:58:57.367670 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.367670 OUT Elapsed: 0s
+21:58:57.367670 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.367880 OUT Elapsed: 210.2µs
+21:58:57.386834 IN Elapsed: 19.1638ms
+21:58:57.386879 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.386879 [91m                            $/progress: backgroundIndexProgress REPORT, 12/27, 44.0%[0m
+21:58:57.386879 IN Elapsed: 0s
+21:58:57.386879 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.386879 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.386879 [91m                            $/progress: backgroundIndexProgress REPORT, 12/27, 44.0%[0m
+21:58:57.386879 OUT Elapsed: 0s
+21:58:57.386879 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.386879 OUT Elapsed: 0s
+21:58:57.449475 IN Elapsed: 62.5957ms
+21:58:57.449475 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.449475 [91m                            $/progress: backgroundIndexProgress REPORT, 13/27, 48.0%[0m
+21:58:57.449475 IN Elapsed: 0s
+21:58:57.449475 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.449475 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.449475 [91m                            $/progress: backgroundIndexProgress REPORT, 13/27, 48.0%[0m
+21:58:57.449475 OUT Elapsed: 0s
+21:58:57.449475 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.449475 OUT Elapsed: 0s
+21:58:57.454380 IN Elapsed: 4.9044ms
+21:58:57.454380 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.454380 [91m                            $/progress: backgroundIndexProgress REPORT, 14/27, 51.0%[0m
+21:58:57.454380 IN Elapsed: 0s
+21:58:57.454380 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.454380 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.454380 [91m                            $/progress: backgroundIndexProgress REPORT, 14/27, 51.0%[0m
+21:58:57.454380 OUT Elapsed: 0s
+21:58:57.454879 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.454879 OUT Elapsed: 0s
+21:58:57.512058 IN Elapsed: 57.6785ms
+21:58:57.512058 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.512058 [91m                            $/progress: backgroundIndexProgress REPORT, 15/27, 55.0%[0m
+21:58:57.512058 IN Elapsed: 0s
+21:58:57.512058 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.512058 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.512058 [91m                            $/progress: backgroundIndexProgress REPORT, 15/27, 55.0%[0m
+21:58:57.512058 OUT Elapsed: 0s
+21:58:57.512058 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.512058 OUT Elapsed: 0s
+21:58:57.526705 IN Elapsed: 14.6466ms
+21:58:57.526705 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.526705 [91m                            $/progress: backgroundIndexProgress REPORT, 16/27, 59.0%[0m
+21:58:57.526880 IN Elapsed: 175.8µs
+21:58:57.526880 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.526880 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.526880 OUT Elapsed: 0s
+21:58:57.526880 [91m                            $/progress: backgroundIndexProgress REPORT, 16/27, 59.0%[0m
+21:58:57.526880 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.526880 OUT Elapsed: 0s
+21:58:57.530381 IN Elapsed: 3.5002ms
+21:58:57.530381 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.530381 [91m                            $/progress: backgroundIndexProgress REPORT, 17/27, 62.0%[0m
+21:58:57.530381 IN Elapsed: 0s
+21:58:57.530381 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.530381 [91m                            $/progress: backgroundIndexProgress REPORT, 17/27, 62.0%[0m
+21:58:57.530381 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.530381 OUT Elapsed: 0s
+21:58:57.530381 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.530381 OUT Elapsed: 0s
+21:58:57.619387 IN Elapsed: 89.0061ms
+21:58:57.619387 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.619387 [91m                            $/progress: backgroundIndexProgress REPORT, 18/27, 66.0%[0m
+21:58:57.619387 IN Elapsed: 0s
+21:58:57.619387 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.619387 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.619387 OUT Elapsed: 0s
+21:58:57.619387 [91m                            $/progress: backgroundIndexProgress REPORT, 18/27, 66.0%[0m
+21:58:57.619387 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.619387 OUT Elapsed: 0s
+21:58:57.619881 IN Elapsed: 494µs
+21:58:57.619881 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.619881 [91m                            $/progress: backgroundIndexProgress REPORT, 19/27, 70.0%[0m
+21:58:57.619881 IN Elapsed: 0s
+21:58:57.619881 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.619881 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.619881 [91m                            $/progress: backgroundIndexProgress REPORT, 19/27, 70.0%[0m
+21:58:57.619881 OUT Elapsed: 0s
+21:58:57.619881 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.619881 OUT Elapsed: 0s
+21:58:57.635976 IN Elapsed: 16.0951ms
+21:58:57.635976 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.635976 [91m                            $/progress: backgroundIndexProgress REPORT, 20/27, 74.0%[0m
+21:58:57.635976 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.635976 OUT Elapsed: 0s
+21:58:57.646228 IN Elapsed: 10.2523ms
+21:58:57.646228 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.646228 [91m                            $/progress: backgroundIndexProgress REPORT, 21/27, 77.0%[0m
+21:58:57.646228 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.646380 OUT Elapsed: 151.6µs
+21:58:57.646879 IN Elapsed: 651.2µs
+21:58:57.646879 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.647380 [91m                            $/progress: backgroundIndexProgress REPORT, 22/27, 81.0%[0m
+21:58:57.647380 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.647380 OUT Elapsed: 0s
+21:58:57.652381 IN Elapsed: 5.0011ms
+21:58:57.652381 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.652381 [91m                            $/progress: backgroundIndexProgress REPORT, 23/27, 85.0%[0m
+21:58:57.652381 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.652381 OUT Elapsed: 0s
+21:58:57.704571 IN Elapsed: 52.19ms
+21:58:57.704571 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.704571 [91m                            $/progress: backgroundIndexProgress REPORT, 24/27, 88.0%[0m
+21:58:57.704571 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.704571 OUT Elapsed: 0s
+21:58:57.704898 IN Elapsed: 326.4µs
+21:58:57.704898 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.704898 [91m                            $/progress: backgroundIndexProgress REPORT, 25/27, 92.0%[0m
+21:58:57.704898 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.704898 OUT Elapsed: 0s
+21:58:57.715211 IN Elapsed: 10.3133ms
+21:58:57.715211 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.715211 [91m                            $/progress: backgroundIndexProgress REPORT, 26/27, 96.0%[0m
+21:58:57.715211 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.715379 OUT Elapsed: 167.9µs
+21:58:57.725878 IN Elapsed: 10.6672ms
+21:58:57.725878 [91mIDE     LS <-- Clangd NOTIF $/progress[0m
+21:58:57.726380 [91m                            $/progress: backgroundIndexProgress END [0m
+21:58:57.726380 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:57.726380 OUT Elapsed: 0s
+21:58:57.915378 IN Elapsed: 863.4983ms
+21:58:57.915378 [92mIDE --> LS NOTIF textDocument/didSave[0m
+21:58:57.915378 [92m                 textDocument/didSave: [93mwrite-locked[0m[0m
+21:58:57.915378 [92m                 textDocument/didSave: notification is not forwarded to clang[0m
+21:58:57.915378 [92m                 textDocument/didSave: [93mwrite-unlocked[0m[0m
+21:58:58.929299 [95mSKETCH REBUILD: : Sketch rebuild started[0m
+21:58:58.929299 [92mIDE <-- LS REQU window/workDoneProgress/create 2[0m
+21:58:58.929299 [95mSKETCH REBUILD: : [93mread-locked[0m[0m
+21:58:58.929299 [95mSKETCH REBUILD: : [93mread-unlocked[0m[0m
+21:58:58.929299 OUT Elapsed: 0s
+21:58:58.929299 IN Elapsed: 1.0139209s
+21:58:58.929299 [32mIDE --> LS RESP window/workDoneProgress/create 2[0m
+21:58:58.929299 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:58.929725 OUT Elapsed: 0s
+21:58:59.239150 [95mSKETCH REBUILD: : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:uno",
+  "sketch_path": "C:\\Users\\cengi\\AppData\\Local\\Temp\\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\\sketch_may27a",
+  "build_path": "C:\\Users\\cengi\\AppData\\Local\\Temp\\arduino-language-server3920032528",
+  "verbose": true,
+  "create_compilation_database_only": true,
+  "source_override": {
+    "sketch_may27a.ino": "const int buttonPin = 2;\nconst int startLED = 3;\nconst int testLED = 4;\n\nvoid setup() {\n  // put your setup code here, to run once:\n  pinMode(startLED, OUTPUT);\n  pinMode(testLED, OUTPUT);\n  digitalWrite(startLED, HIGH);\n  digitalWrite(testLED, HIGH);\n  pinMode(buttonPin, INPUT_PULLUP);\n  Serial.begin(9600);\n}\n\nvoid loop() {\n  // put your main code here, to run repeatedly:\n  int buttonState = digitalRead(buttonPin);\n\n  if (buttonState == LOW) {\n    startTest();\n  }\n}\n\nvoid startTest() {\n  Serial.println(\"Test Started!\");\n  blinkLEDWithDuration(250, startLED);\n  delay(250);\n  for (int i = 0; i \u003c= 20; i++) {\n    blinkLEDWithDuration(50, testLED);\n  }\n}\n\nvoid blinkLEDWithDuration(int delayTime, int pin) {\n  digitalWrite(pin, LOW);\n  delay(delayTime);\n  digitalWrite(pin, HIGH);\n  delay(delayTime);\n}\n"
+  },
+  "skip_libraries_discovery": true
+}[0m
+21:58:59.475176 [95mSKETCH REBUILD: : Compile successful![0m
+21:58:59.482175 [95mSKETCH REBUILD: : [93mwrite-locked[0m[0m
+21:58:59.484676   > Current sketchmapper content:
+21:58:59.484676   0: #include <Arduino.h>                                         | /not-ino:0                                         
+21:58:59.484676   1: #line 1 "C:\\Users\\cengi\\AppData\\Local\\Temp\\.arduinoIDE | /not-ino:0                                         
+21:58:59.484676   2: const int buttonPin = 2;                                     | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:0                          
+21:58:59.484676   3: const int startLED = 3;                                      | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:1                          
+21:58:59.484676   4: const int testLED = 4;                                       | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:2                          
+21:58:59.484676   5:                                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:3                          
+21:58:59.484676   6: #line 5 "C:\\Users\\cengi\\AppData\\Local\\Temp\\.arduinoIDE | /not-ino:0                                         
+21:58:59.484676   7: void setup();                                                | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:4 C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:4
+21:58:59.484676   8: #line 15 "C:\\Users\\cengi\\AppData\\Local\\Temp\\.arduinoID | /not-ino:0                                         
+21:58:59.484676   9: void loop();                                                 | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:14 C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:14
+21:58:59.484676  10: #line 24 "C:\\Users\\cengi\\AppData\\Local\\Temp\\.arduinoID | /not-ino:0                                         
+21:58:59.484676  11: void startTest();                                            | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:23 C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:23
+21:58:59.484676  12: #line 33 "C:\\Users\\cengi\\AppData\\Local\\Temp\\.arduinoID | /not-ino:0                                         
+21:58:59.484676  13: void blinkLEDWithDuration(int delayTime, int pin);           | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:32 C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:32
+21:58:59.484676  14: #line 5 "C:\\Users\\cengi\\AppData\\Local\\Temp\\.arduinoIDE | /not-ino:0                                         
+21:58:59.484676  15: void setup() {                                               | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:4                          
+21:58:59.484676  16:   // put your setup code here, to run once:                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:5                          
+21:58:59.484676  17:   pinMode(startLED, OUTPUT);                                 | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:6                          
+21:58:59.484676  18:   pinMode(testLED, OUTPUT);                                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:7                          
+21:58:59.484676  19:   digitalWrite(startLED, HIGH);                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:8                          
+21:58:59.484676  20:   digitalWrite(testLED, HIGH);                               | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:9                          
+21:58:59.484676  21:   pinMode(buttonPin, INPUT_PULLUP);                          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:10                          
+21:58:59.484676  22:   Serial.begin(9600);                                        | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:11                          
+21:58:59.484676  23: }                                                            | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:12                          
+21:58:59.484676  24:                                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:13                          
+21:58:59.484676  25: void loop() {                                                | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:14                          
+21:58:59.484676  26:   // put your main code here, to run repeatedly:             | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:15                          
+21:58:59.484676  27:   int buttonState = digitalRead(buttonPin);                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:16                          
+21:58:59.484676  28:                                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:17                          
+21:58:59.484676  29:   if (buttonState == LOW) {                                  | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:18                          
+21:58:59.484676  30:     startTest();                                             | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:19                          
+21:58:59.484676  31:   }                                                          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:20                          
+21:58:59.484676  32: }                                                            | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:21                          
+21:58:59.484676  33:                                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:22                          
+21:58:59.484676  34: void startTest() {                                           | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:23                          
+21:58:59.484676  35:   Serial.println("Test Started!");                           | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:24                          
+21:58:59.484676  36:   blinkLEDWithDuration(250, startLED);                       | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:25                          
+21:58:59.484676  37:   delay(250);                                                | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:26                          
+21:58:59.484676  38:   for (int i = 0; i <= 20; i++) {                            | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:27                          
+21:58:59.484676  39:     blinkLEDWithDuration(50, testLED);                       | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:28                          
+21:58:59.484676  40:   }                                                          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:29                          
+21:58:59.484676  41: }                                                            | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:30                          
+21:58:59.484676  42:                                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:31                          
+21:58:59.484676  43: void blinkLEDWithDuration(int delayTime, int pin) {          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:32                          
+21:58:59.484676  44:   digitalWrite(pin, LOW);                                    | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:33                          
+21:58:59.484676  45:   delay(delayTime);                                          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:34                          
+21:58:59.484676  46:   digitalWrite(pin, HIGH);                                   | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:35                          
+21:58:59.484676  47:   delay(delayTime);                                          | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:36                          
+21:58:59.484676  48: }                                                            | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:37                          
+21:58:59.484676  49:                                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:38                          
+21:58:59.484676  50:                                                              | C:\Users\cengi\AppData\Local\Temp\.arduinoIDE-unsaved2023427-11700-lkcmmb.ne96d\sketch_may27a\sketch_may27a.ino:39                          
+21:58:59.484676 [95mSKETCH REBUILD: : Sending 'didSave' notification to Clangd[0m
+21:58:59.484676 [91mIDE     LS --> Clangd NOTIF textDocument/didSave[0m
+21:58:59.484676 OUT Elapsed: 0s
+21:58:59.484676 [95mSKETCH REBUILD: : Sending full-text 'didChange' notification to Clangd[0m
+21:58:59.484676 [91mIDE     LS --> Clangd NOTIF textDocument/didChange[0m
+21:58:59.484676 OUT Elapsed: 0s
+21:58:59.484676 [95mSKETCH REBUILD: : [93mwrite-unlocked[0m[0m
+21:58:59.484676 [92mIDE <-- LS NOTIF $/progress[0m
+21:58:59.484676 OUT Elapsed: 0s
+21:58:59.593412 IN Elapsed: 1.8670321s
+21:58:59.593412 [91mIDE     LS <-- Clangd NOTIF textDocument/publishDiagnostics[0m
+21:58:59.593412 [91m                            textDocument/publishDiagnostics: Ignored by configuration[0m
+
+
+
+
+
+
+
+Started logging.
+21:59:18.951617 Language server launched with arguments:
+21:59:18.951617   arg[0] = c:\Users\cengi\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-language-server.exe
+21:59:18.951617   arg[1] = -clangd
+21:59:18.951617   arg[2] = c:\Users\cengi\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\clangd.exe
+21:59:18.951617   arg[3] = -cli-daemon-addr
+21:59:18.951617   arg[4] = localhost:60527
+21:59:18.951617   arg[5] = -cli-daemon-instance
+21:59:18.951617   arg[6] = 1
+21:59:18.951617   arg[7] = -fqbn
+21:59:18.951617   arg[8] = arduino:avr:uno
+21:59:18.951617   arg[9] = -skip-libraries-discovery-on-rebuild
+21:59:18.951617   arg[10] = -board-name
+21:59:18.951617   arg[11] = "Arduino Uno"
+21:59:18.951617   arg[12] = -no-real-time-diagnostics
+21:59:18.951617   arg[13] = -log
+21:59:18.951617   arg[14] = -logpath
+21:59:18.951617   arg[15] = d:\__FHV\__Bachelorarbeit\Bachelorarbeit Experiment\Arduino-Mouse-Simulating\Mouse-Simulator
+21:59:18.951617 logging to d:\__FHV\__Bachelorarbeit\Bachelorarbeit Experiment\Arduino-Mouse-Simulating\Mouse-Simulator\inols.log
+21:59:18.953617 [97mLS: : Initial board configuration: arduino:avr:uno[0m
+21:59:18.953617 [97mLS: : arduino-language-server.exe Version: 0.7.4 Commit: d620b0b Date: 2023-01-11T15:42:52Z[0m
+21:59:18.953617 [97mLS: : Language server build path: C:\Users\cengi\AppData\Local\Temp\arduino-language-server1428722724[0m
+21:59:18.953617 [97mLS: : Language server build sketch root: C:\Users\cengi\AppData\Local\Temp\arduino-language-server1428722724\sketch[0m
+21:59:18.953617 [97mLS: : Language server FULL build path: C:\Users\cengi\AppData\Local\Temp\arduino-language-server2350981197[0m
+21:59:18.954118 IN Elapsed: 0s
+21:59:18.954118 [92mIDE --> LS REQU initialize 0[0m
+21:59:18.954616 [92m                initialize 0: [93mwrite-locked[0m[0m
+21:59:18.955118 [92m                initialize 0: [93mwrite-unlocked[0m[0m
+21:59:18.955118 [96mINIT --- : initializing workbench: file:///d%3A/__FHV/__Bachelorarbeit/Bachelorarbeit%20Experiment/Arduino-Mouse-Simulating/Mouse-Simulator[0m
+21:59:18.955118 [96mINIT --- : [93mread-locked[0m[0m
+21:59:18.955616 [96mINIT --- : [93mread-unlocked[0m[0m
+21:59:18.955616 [92m                initialize 0: initialization parameters: {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{"includeText":true}},"completionProvider":{"triggerCharacters":[".","\u003c","\u003e",":","\"","/"],"allCommitCharacters":[" ","\t","(",")","[","]","{","}","\u003c","\u003e",":",";",",","+","-","/","*","%","^","\u0026","#","?",".","=","\"","'","|"],"completionItem":{}},"hoverProvider":{},"signatureHelpProvider":{"triggerCharacters":["(",","]},"definitionProvider":{},"documentHighlightProvider":{},"documentSymbolProvider":{},"codeActionProvider":{"codeActionKinds":["quickfix","refactor","info"]},"documentFormattingProvider":{},"documentRangeFormattingProvider":{},"documentOnTypeFormattingProvider":{"firstTriggerCharacter":"\n"},"renameProvider":{},"executeCommandProvider":{"commands":["clangd.applyFix","clangd.applyTweak"]},"workspaceSymbolProvider":{}},"serverInfo":{"name":"arduino-language-server","version":"0.7.4"}}[0m
+21:59:18.956118 [32mIDE <-- LS RESP initialize 0[0m
+21:59:18.956118 OUT Elapsed: 0s
+21:59:18.959616 IN Elapsed: 3.4979ms
+21:59:18.959616 [92mIDE --> LS NOTIF initialized[0m
+21:59:18.959616 [92m                 initialized: Notification is not propagated to clangd[0m
+21:59:18.959616 IN Elapsed: 0s
+21:59:18.959616 [92mIDE --> LS NOTIF textDocument/didOpen[0m
+21:59:18.959616 [92m                 textDocument/didOpen: [93mwrite-locked[0m[0m
+21:59:18.959616 [92m                 textDocument/didOpen: (throttled: waiting for clangd)[0m
+21:59:18.959616 [92m                 textDocument/didOpen: [93munlocked (waiting clangd)[0m[0m
+21:59:19.257963 [96mINIT --- : Running build with: {
+  "instance": {
+    "id": 1
+  },
+  "fqbn": "arduino:avr:uno",
+  "sketch_path": "D:\\__FHV\\__Bachelorarbeit\\Bachelorarbeit Experiment\\Arduino-Mouse-Simulating\\Mouse-Simulator",
+  "build_path": "C:\\Users\\cengi\\AppData\\Local\\Temp\\arduino-language-server2350981197",
+  "verbose": true,
+  "create_compilation_database_only": true
+}[0m
+21:59:19.261465 [96mINIT --- : build stdout:[0m
+21:59:19.261465 [96mINIT --- : [0m
+21:59:19.261465 [96mINIT --- : build stderr:[0m
+21:59:19.261465 [96mINIT --- : [0m
+21:59:19.261465 [96mINIT --- : error starting clang: error running compile: rpc error: code = NotFound desc = Cannot find build path: Rel: can't make C:\Users\cengi\AppData\Local\Temp\arduino-language-server2350981197 relative to D:\__FHV\__Bachelorarbeit\Bachelorarbeit Experiment\Arduino-Mouse-Simulating\Mouse-Simulator[0m
+21:59:19.261465 [92m                 textDocument/didOpen: [93mlocked (waiting clangd)[0m[0m
+21:59:19.261465 [92m                 textDocument/didOpen: clangd startup failed: quitting Language server[0m
